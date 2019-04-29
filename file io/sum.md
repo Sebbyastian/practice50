@@ -38,9 +38,9 @@ int main(int argc, char* argv[])
 
 int to_int(int c)
 {
-    if (c >= 48 && c <= 57)
+    if (c >= '0' && c <= '9')
     {
-        return c - 48;
+        return c - '0';
     }
     else
     {
